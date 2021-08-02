@@ -3,11 +3,14 @@ h1 {
     background-color: rgb(34, 197, 162);
     margin-top: auto;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1500;
+    border: solid 4px black;
 }
 
 body {
     background-color: blanchedalmond;
-    background; url="../assets/lateregistration.jpg";
+    background-image: url"100SD/assets/lateregistration.jpg";
 }
 
 .textbox {
@@ -18,14 +21,13 @@ body {
     width: fit-content;
     margin: auto;
     position: relative;
-    display: flexbox;
 }
 
 #submitbutton {
     color: rgb(80, 27, 2);
     background-color: wheat;
     text-align: center;
-    
+    width: 20%;
 }
 
 footer {
@@ -34,7 +36,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-size: 40px;
+    font-size: 80px;
+    font-weight: bolder;
     background-color: wheat;
 }
 
@@ -43,14 +46,17 @@ img {
     margin-right: auto;
     margin-left: auto;
     position: relative;
-    height:min-content;
-    width: min-content;
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
 }
 
 header {
     text-align: right;
     color: wheat;
     padding-bottom: 10px;
+    right: 10px;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
