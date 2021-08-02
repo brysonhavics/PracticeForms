@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    background-color: rgb(34, 197, 162);
+    margin-top: auto;
+    position: relative;
+}
+
+body {
+    background-color: blanchedalmond;
+    background; url="../assets/lateregistration.jpg";
+}
+
+.textbox {
+    text-align: center;
+    background-color: rgb(34, 197, 162);
+    border: solid medium black;
+    padding: 20px 35px 20px 35px;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    display: flexbox;
+}
+
+#submitbutton {
+    color: rgb(80, 27, 2);
+    background-color: wheat;
+    text-align: center;
+    
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 40px;
+    background-color: wheat;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    height:min-content;
+    width: min-content;
+}
+
+header {
+    text-align: right;
+    color: wheat;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+}
